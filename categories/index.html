@@ -11,7 +11,7 @@
   <title>Categories &middot; Blowfish</title>
   <meta name="title" content="Categories &middot; Blowfish" />
   
-  
+  <meta name="description" content="My awesome website" />
   
   
   
@@ -46,8 +46,8 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.1271c22a557a15f10b5d38d2c87e49503604cfeffebadc1e7c267934e4b9f3ba1b74d81371219f9681dab2141482fc4ed2a8b462b179f0ef43a5f76d0575e85b.js"
-    integrity="sha512-EnHCKlV6FfELXTjSyH5JUDYEz&#43;/&#43;utwefCZ5NOS587obdNgTcSGfloHashQUgvxO0qi0YrF58O9DpfdtBXXoWw==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.e26e6983266b2a8a37d0b4218785179e560616a9267f8b7a64abc2927262a644825898cbe96e9ee2a2066e4825ca3be78bb2954b3ebab8c1cbd9a1de006da403.js"
+    integrity="sha512-4m5pgyZrKoo30LQhh4UXnlYGFqkmf4t6ZKvCknJipkSCWJjL6W6e4qIGbkglyjvni7KVSz66uMHL2aHeAG2kAw==" data-copy="" data-copied=""></script>
   
   
   <script src="/js/zoom.min.js"></script>
@@ -66,13 +66,13 @@
   
   
   <meta property="og:title" content="Categories" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="My awesome website" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://Happpy-why.github.io/categories/" />
 
 
   <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="My awesome website"/>
 
   
   
@@ -84,6 +84,12 @@
   
   
   <link href="mailto:1780006511@qq.com" rel="me" />
+  
+  
+  <link href="https://link-to-some-website.com/" rel="me" />
+  
+  
+  <link href="https://github.com/Happy-why" rel="me" />
   
   
   
@@ -116,6 +122,29 @@
   <meta name="theme-color"/>
   
   
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyBrFYjoXpBKm5Wm-97Dk992MYdfBHHEsgw",
+      authDomain: "AIzaSyBrFYjoXpBKm5Wm-97Dk992MYdfBHHEsgw",
+      projectId: "happy-why-blog",
+      storageBucket: "happy-why-blog.appspot.com",
+      messagingSenderId: "950404499824",
+      appId: "1:950404499824:web:2d431932b69e4af8e7a7b5",
+      measurementId: "G-3BH78SDLGG"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+  
+  
 </head>
 <body
   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
@@ -126,8 +155,14 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
     
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
@@ -142,9 +177,9 @@
             
             
             
-  <a href=""  class="flex items-center">
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
+    <p class="text-base font-medium" title="">
         Blog
     </p>
 </a>
@@ -157,7 +192,7 @@
 
 
             
-            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400 h-12"
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
                 title="">
                 
 
@@ -174,9 +209,9 @@
             
             
             <div
-                class="ltr:mr-14 rtl:ml-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400">
-                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button">
-                    <div class="flex items-center justify-center h-12 dark:hidden">
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
                         
 
   <span class="relative block icon">
@@ -186,7 +221,7 @@
 
 
                     </div>
-                    <div class="items-center justify-center hidden h-12 dark:flex">
+                    <div class="items-center justify-center hidden dark:flex">
                         
 
   <span class="relative block icon">
@@ -201,7 +236,7 @@
             
 
         </nav>
-        <div class="flex md:hidden items-center space-x-5 md:ml-12">
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
 
             <span></span>
 
@@ -224,8 +259,8 @@
 
             
             
-            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" style="margin-right:5px">
-                <div class="flex items-center justify-center h-12 dark:hidden">
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
                     
 
   <span class="relative block icon">
@@ -235,7 +270,7 @@
 
 
                 </div>
-                <div class="items-center justify-center hidden h-12 dark:flex">
+                <div class="items-center justify-center hidden dark:flex">
                     
 
   <span class="relative block icon">
@@ -286,9 +321,9 @@
 
                     
   <li class="mt-1">
-    <a href=""  class="flex items-center">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+        <p class="text-bg font-bg" title="">
             Blog
         </p>
     </a>
@@ -310,6 +345,16 @@
 
 
 
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
 
   
   <div class="relative flex flex-col grow">
