@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blowfish</title>
-    <link>https://Happpy-why.github.io/</link>
+    <link>happy-why.cn/</link>
     <description>Recent content on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 知白守黑</copyright>
-    <atom:link href="https://Happpy-why.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="happy-why.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://Happpy-why.github.io/test/</link>
+      <link>happy-why.cn/test/</link>
       <pubDate>Sun, 18 Feb 2024 15:43:29 +0800</pubDate>
       
-      <guid>https://Happpy-why.github.io/test/</guid>
+      <guid>happy-why.cn/test/</guid>
       <description></description>
       
     </item>
