@@ -562,6 +562,16 @@
 
 
 
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
 
   </div>
 </div>
@@ -685,11 +695,26 @@
   
 
 
-<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-  
-</section>
+<div class="relative w-screen max-w-[1600px] px-[30px]" style="left: calc(max(-50vw,-800px) + 50%);">
+  <section
+    class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+    
+  </section>
+</div>
 
 
+
+
+
+
+<div class="mt-10 flex justify-center">
+  <a href="/posts">
+    <button
+      class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-500 hover:border-transparent rounded">
+      显示更多
+    </button>
+  </a>
+</div>
 
 
 </section>
