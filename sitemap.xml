@@ -3,19 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://Happpy-why.github.io/test02/</loc>
+    <loc>https://Happpy-why.github.io/blog/</loc>
     <lastmod>2024-02-20T11:02:13+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://Happpy-why.github.io/test/</loc>
-    <lastmod>2024-02-18T15:43:29+08:00</lastmod>
+    <loc>https://Happpy-why.github.io/</loc>
+    <lastmod>2024-02-20T11:02:13+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://Happpy-why.github.io/</loc>
+    <loc>https://Happpy-why.github.io/blog/my_post/test02/</loc>
+    <lastmod>2024-02-20T11:02:13+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://Happpy-why.github.io/blog/test/</loc>
+    <lastmod>2024-02-18T15:43:29+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

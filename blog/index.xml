@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>happy-why&#39;s Blog</title>
-    <link>https://Happpy-why.github.io/</link>
-    <description>Recent content on happy-why&#39;s Blog</description>
+    <title>Blogs on happy-why&#39;s Blog</title>
+    <link>https://Happpy-why.github.io/blog/</link>
+    <description>Recent content in Blogs on happy-why&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 知白守黑</copyright>
-    <lastBuildDate>Tue, 20 Feb 2024 11:02:13 +0800</lastBuildDate><atom:link href="https://Happpy-why.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Feb 2024 11:02:13 +0800</lastBuildDate><atom:link href="https://Happpy-why.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test02</title>
       <link>https://Happpy-why.github.io/blog/my_post/test02/</link>
